@@ -19,5 +19,6 @@ public class ExplicitWaitExample {
         System.out.println(webElement.getTagName());
         System.out.println(webElement.getText());
 //        driver.quit();
+
     }
 }
