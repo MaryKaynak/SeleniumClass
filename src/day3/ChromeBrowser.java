@@ -55,6 +55,6 @@ public class ChromeBrowser {
         System.out.println(currentUrl);
 
 // close the drive and associated windows
-        driver.quit();
+       // driver.quit();
     }
 }

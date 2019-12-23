@@ -21,7 +21,6 @@ public class CountingElementOnPage {
 
         //driver.quit();
     }
-
     static void printNumberOfElementsOnAPage(WebDriver driver, String tagName) {
         List<WebElement> elements = driver.findElements( By.tagName( tagName ) );
         System.out.println( "There is(are) " + elements.size() + " " + tagName + " tag(s) on page!" );
